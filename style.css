@@ -1,0 +1,261 @@
+.header-shape{
+    display: flex;
+    gap: 20px;
+    background-color: black;
+    border-radius: 20px 20px 0px 0px;
+    color: white;
+    justify-content: center;
+}
+#tick-icon{
+    margin-top: 25px;
+}
+.header-details{
+    display: flex;
+    gap: 1170px;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+.leftside{
+    display: flex;
+    gap: 30px;
+}
+.rightside{
+    display: flex;
+    gap: 30px; 
+}
+#email-icon{
+    margin-top: 30px;
+}
+#phone-icon{
+    margin-top: 30px;
+}
+
+.web-menu{
+    list-style-type: none;
+    margin-top: 70px;
+
+}
+li{
+    display: inline;
+    padding: 30px;
+}
+.container{
+    position: relative;
+}
+.image-text{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+#start-button{
+    background-color: yellow;
+    color: white;
+    padding: 20px;
+    border: none;
+    width: 200px;
+    margin-left: 70px;
+}
+#movingtext{
+        font-family: "Alfa Slab One", serif;
+        font-weight: 400;
+        font-style: normal;
+        color: white;
+        font-size: 70px;
+      }
+      
+
+#cover-image{
+    opacity: 0.9;
+}
+.aboutus{
+    display: flex;
+    gap: 1px;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 200px;
+}
+.about-left{
+    width: 100%;
+    margin-left: 100px;
+}
+.about-right{
+    width: 100%;
+    margin-right: 100px;
+}
+.riaadsince{
+    display: flex;
+    gap: 30px;
+}
+#aboutimage{
+    width: 450px;
+    height: 450px;
+}
+.ipsum-logos{
+    display: flex;
+    gap: 230px;
+    margin-left: 130px;
+    margin-bottom: 200px;
+}
+.services-text{
+    margin-left: 900px;
+    margin-bottom: 40px;
+}
+.blue{
+background-color: rgb(26, 96, 136);
+color: white;
+width: 15%;
+padding: 40px;
+}
+hr{
+    width: 95%;
+    
+   
+}
+.services-container{
+    display: flex;
+    gap: 150px;
+    margin-left: 450px;
+}
+#video{
+    position: relative;
+}
+#play-icon{
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    background-color: white;
+    size-adjust: 150px;
+    
+    
+}
+.video-section{
+    display: flex;
+    gap: 50px;
+    margin-left: 450px;
+}
+.video-text{
+display: flex;
+gap: 20px;
+}
+.imagebox{
+    position: relative;
+    top: -30px;
+    left: -30px;
+}
+.textbox{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    background-color: white;
+    width: 220px;
+    padding: 20px;
+    height: 90px;
+}
+.left-statistics{
+    background-color: blue;
+    position: relative;
+    margin-left: 200px;
+    width: 20%;
+    height: 90%;
+    padding: 30px;
+    
+}
+.belowtext{
+    display: flex;
+    gap: 30px;
+}
+#arrowicon{
+    margin-top: 17px;
+}
+#chairimage{
+    width: 90%;
+}
+.movingimage{
+    position: relative;
+}
+.yellowplay-icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+
+}
+.statistics{
+    display: flex;
+    gap: 10px;
+}
+.right-statistics{
+    display: grid;
+    gap: 40px;
+    
+}
+.business-stats{
+    display: flex;
+    gap: 70px;
+}
+#tickicon{
+    margin-top: 25px;
+}
+.leftform{
+    display: grid;
+
+}
+.rightform{
+    display: grid;
+    
+}
+.form{
+    display: flex;
+    background-color: blue;
+    margin-right: 40px;
+    gap: 30px;
+    width: 781px;
+    padding: 50px;
+
+}
+#formelements{
+    padding: 10px;
+    }
+#date{
+    padding: 10px;
+    width: 87%;
+}
+
+.oppositeform{
+    background-color: yellow;
+    margin-left: 400px;
+    padding: 20px;
+    width: 280px;
+    height: 280px;
+}
+.formcontainer{
+    display: flex;
+    margin-top: -5px;
+}
+.formsection{
+    display: grid;
+    width: 100%;
+    
+}
+#submit-button{
+    background-color: yellow;
+    padding: 15px;
+    border: none;
+    
+}
+#formimage{
+    margin-left: 400px;
+    width: 1200px;
+}
+#customerprofile{
+    width: 2px;
+    height: 2px;
+    
+}
+.customer-feedback{
+    display: flex;
+    gap: 70px;
+    margin-left: 200px;
+}

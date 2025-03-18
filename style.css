@@ -12,12 +12,10 @@
 }
 
 
-.header-details{
-    display: flex;
-    gap: 1170px;
-    margin-left: 140px;
-    margin-right: 140px;
+.testimonies{
+    margin-top: 100px;
 }
+
 .leftside{
     display: flex;
     gap: 30px;
@@ -25,6 +23,7 @@
 .rightside{
     display: flex;
     gap: 30px; 
+    margin-left: 1500px;
 }
 #home{
     color: yellow;
@@ -41,6 +40,13 @@
     margin-top: 70px;
 
 }
+.menubar{
+    margin-left: -1500px;
+}
+#yellowtext{
+    color: yellow;
+}
+
 li{
     display: inline;
     padding: 30px;
@@ -67,12 +73,14 @@ li{
 
 #movingtext{
         font-family: "Alfa Slab One", serif;
-        font-weight: 400;
+        font-weight: 900;
         font-style: normal;
         color: white;
         font-size: 70px;
+        margin-left: -100px;
       }
       
+
 
 #cover-image{
     filter: brightness(50%);
@@ -84,6 +92,9 @@ li{
     margin-top: 50px;
     margin-left: 200px;
     margin-bottom: 200px;
+}
+#head-text{
+    margin-left: -35px;
 }
 .about-left{
     width: 100%;
@@ -178,7 +189,9 @@ hr{
 .video-text{
 display: flex;
 gap: 40px;
+
 }
+#click-text{font-weight: lighter;}
 .imagebox{
     position: relative;
     top: -30px;
@@ -273,6 +286,12 @@ gap: 40px;
     padding: 20px;
     width: 280px;
     height: 280px;
+    color: white;
+}
+#formlabel{
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
 }
 .formcontainer{
     display: flex;
@@ -291,7 +310,10 @@ gap: 40px;
 }
 #quotation{
     border-radius: 50%;
-    color: blue;
+    background-color: blue;
+    padding: 40px;
+    margin-left: 70px;
+    
 }
 #formimage{
     margin-left: 400px;

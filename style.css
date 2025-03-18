@@ -10,6 +10,8 @@
 #tick-icon{
     margin-top: 25px;
 }
+
+
 .header-details{
     display: flex;
     gap: 1170px;
@@ -23,6 +25,9 @@
 .rightside{
     display: flex;
     gap: 30px; 
+}
+#home{
+    color: yellow;
 }
 #email-icon{
     margin-top: 30px;
@@ -58,6 +63,8 @@ li{
     width: 200px;
     margin-left: 70px;
 }
+
+
 #movingtext{
         font-family: "Alfa Slab One", serif;
         font-weight: 400;
@@ -68,13 +75,14 @@ li{
       
 
 #cover-image{
-    opacity: 0.9;
+    filter: brightness(50%);
+    width: 100%;
 }
 .aboutus{
     display: flex;
     gap: 1px;
     margin-top: 50px;
-    margin-left: 100px;
+    margin-left: 200px;
     margin-bottom: 200px;
 }
 .about-left{
@@ -84,6 +92,7 @@ li{
 .about-right{
     width: 100%;
     margin-right: 100px;
+    margin-top: 50px;
 }
 .riaadsince{
     display: flex;
@@ -99,9 +108,13 @@ li{
     margin-left: 130px;
     margin-bottom: 200px;
 }
+.riaadsince{
+    margin-top: 100px;
+}
 .services-text{
     margin-left: 900px;
     margin-bottom: 40px;
+    margin-top: 130px;
 }
 .blue{
 background-color: blue;
@@ -136,7 +149,13 @@ hr{
     gap: 150px;
     margin-left: 450px;
     margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
+}
+#year{
+    font-size: 50px;
+    color: black;
+    font-weight: 600;
+   
 }
 #video{
     position: relative;
@@ -152,8 +171,9 @@ hr{
 }
 .video-section{
     display: flex;
-    gap: 150px;
+    gap: 300px;
     margin-left: 450px;
+    margin-top: 50px;
 }
 .video-text{
 display: flex;
@@ -276,11 +296,15 @@ gap: 40px;
 #formimage{
     margin-left: 400px;
     width: 1200px;
+    filter: brightness(50%);
 }
 #customerprofile{
     width: 2px;
     height: 2px;
     
+}
+.yearpart{
+    margin-top: 30px;
 }
 #bookonline{
     margin-left: 900px;
@@ -292,22 +316,35 @@ gap: 40px;
     gap: 70px;
     margin-left: 500px;
 }
+a{
+    color: yellow;
+}
 .articles{
     display: flex;
     gap: 50px;
-    margin-left: 600px;
+    margin-left: 500px;
 }
 .articles-image{
     position: relative;
     
 }
+#shield{
+    background-color: yellow;
+    border-radius: 50%;
+    padding: 40px;
+}
 #centerimage{
     width: 300px;
     height: 300px;
+    filter: brightness(50%);
+}
+.why-riaad{
+    margin-top: 30px;
 }
 #rightimage{
     width: 300px;
     height: 300px;
+    filter: brightness(50%);
 }
 .blog{
     margin-left: 900px;
@@ -331,10 +368,12 @@ gap: 40px;
 #leftimage{
     width: 300px;
     height: 300px;
+    filter: brightness(50%);
 }
 .newsletter{
     margin-left: 900px;
     margin-bottom: 50px;
+    margin-top: 100px;
 }
 
 .articles-text{

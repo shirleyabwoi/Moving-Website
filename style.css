@@ -153,7 +153,8 @@ hr{
     background-color: white;
     border-radius: 50%;
     padding: 30px;
-    margin-left: 140px;
+    margin-left: 55px;
+    margin-top: -30px;
 }
 .services-container{
     display: flex;

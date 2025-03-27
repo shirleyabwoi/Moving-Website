@@ -9,6 +9,7 @@
 }
 #tick-icon{
     margin-top: 25px;
+    font-size: 20px;
 }
 
 
@@ -16,23 +17,25 @@
     margin-top: 100px;
 }
 
-.leftside{
+.contacts-leftside{
     display: flex;
     gap: 30px;
 }
-.rightside{
+.contacts-rightside{
     display: flex;
     gap: 30px; 
     margin-left: 1500px;
 }
 #home{
-    color: yellow;
+    color: orange;
 }
 #email-icon{
     margin-top: 30px;
+    font-size: 20px;
 }
 #phone-icon{
     margin-top: 30px;
+    font-size: 20px;
 }
 
 .web-menu{
@@ -44,7 +47,7 @@
     margin-left: -1500px;
 }
 #yellowtext{
-    color: yellow;
+    color: orange;
 }
 
 li{
@@ -62,12 +65,13 @@ li{
     color: white;
 }
 #start-button{
-    background-color: yellow;
+    background-color: orange;
     color: white;
     padding: 20px;
     border: none;
     width: 200px;
     margin-left: 70px;
+    cursor: pointer;
 }
 
 
@@ -86,7 +90,7 @@ li{
     filter: brightness(50%);
     width: 100%;
 }
-.aboutus{
+.aboutus-container{
     display: flex;
     gap: 1px;
     margin-top: 50px;
@@ -96,16 +100,16 @@ li{
 #head-text{
     margin-left: -35px;
 }
-.about-left{
+.left-container{
     width: 100%;
     margin-left: 100px;
 }
-.about-right{
+.right-container{
     width: 100%;
     margin-right: 100px;
     margin-top: 50px;
 }
-.riaadsince{
+.riaadSince{
     display: flex;
     gap: 30px;
 }
@@ -127,19 +131,19 @@ li{
     margin-bottom: 40px;
     margin-top: 130px;
 }
-.blue{
+.blue-container{
 background-color: blue;
 color: white;
 width: 15%;
 padding: 70px;
 }
 #packageicon{
-    background-color: yellow;
+    background-color: orange;
     border-radius: 50%;
     padding: 3px;
 }
 #truckicon{
-    background-color: yellow;
+    background-color: orange;
     border-radius: 50%;
     padding: 40px; 
 }
@@ -174,10 +178,10 @@ hr{
 }
 #play-icon{
     position: absolute;
-    top: 30%;
+    top: 40%;
     left: 35%;
     background-color: white;
-    size-adjust: 150px;
+    font-size: 25px;
     
     
 }
@@ -207,7 +211,7 @@ gap: 40px;
     padding: 20px;
     height: 90px;
 }
-.left-statistics{
+.left-section{
     background-color: blue;
     position: relative;
     margin-left: 200px;
@@ -239,16 +243,16 @@ gap: 40px;
     
 
 }
-.statistics{
+.sectionDescription{
     display: flex;
     gap: 10px;
 }
-.right-statistics{
+.right-section{
     display: grid;
     gap: 40px;
     
 }
-.business-stats{
+.statisticsContainer{
     display: flex;
     gap: 170px;
     margin-left: 300px;
@@ -264,7 +268,7 @@ gap: 40px;
     display: grid;
     
 }
-.form{
+.formContent{
     display: flex;
     background-color: blue;
     margin-right: 40px;
@@ -282,7 +286,7 @@ gap: 40px;
 }
 
 .oppositeform{
-    background-color: yellow;
+    background-color: orange;
     margin-left: 400px;
     padding: 20px;
     width: 280px;
@@ -294,7 +298,7 @@ gap: 40px;
     font-size: 15px;
     font-weight: 600;
 }
-.formcontainer{
+.form{
     display: flex;
     margin-top: -5px;
 }
@@ -304,7 +308,7 @@ gap: 40px;
     
 }
 #submit-button{
-    background-color: yellow;
+    background-color: orange;
     padding: 15px;
     border: none;
     
@@ -340,7 +344,7 @@ gap: 40px;
     margin-left: 500px;
 }
 a{
-    color: yellow;
+    color: orange;
 }
 .articles{
     display: flex;
@@ -352,7 +356,7 @@ a{
     
 }
 #shield{
-    background-color: yellow;
+    background-color: orange;
     border-radius: 50%;
     padding: 40px;
 }
@@ -381,7 +385,7 @@ a{
     margin-left: 900px;
 }
 #newsletterbutton{
-    background-color: yellow;
+    background-color: orange;
     color: white;
     border: none;
     padding: 10px;
@@ -407,9 +411,9 @@ a{
     
 
 }
-.up-part{
+.upperFooter{
     margin-top: 100px;
-    background-color: yellow;
+    background-color: orange;
     display: flex;
     gap: 100px;
     border-radius: 0px 0px 10px 10px;
@@ -425,6 +429,18 @@ a{
 .footer-icons{
     display: flex;
     gap: 25px;
+    margin-top: 25px;
+}
+#emailText{
+    width: 100%;
+    margin-top: 25px;
+    height: 50%;
+    border: none;
+
+}
+#playIcon{
+    font-size: 100px;
+    
 }
 .bar{
     display: flex;
@@ -446,7 +462,7 @@ a{
 #uparrow{
     margin-left: 1800px;
 }
-.low-part{
+.lowerFooter{
     display: grid;
     gap: 80px;
     background-color: black;
@@ -456,5 +472,184 @@ a{
 }
 #copyrighticon{
     margin-top: 25px;
+    font-size: 15px;
 }
+
+    @media only screen and (max-width:768px) {
+        body{
+            max-width: 100%;
+        }
+      .contact-details{
+        display: block;
+       
+        
+      }
+      .contacts-rightside{
+        margin-left: -170px;
+        margin-top: 70px;
+        margin-bottom: 10px;
+      }
+     
+      .container{
+        width: 100%;
+        margin-top: 50px;
+      }
+      #movingtext{
+        font-size: 10px;
+        margin-left: 30px;
+        
+      }
+      #start-button{
+        display: none;
+       
+       
+      }
+      .image-text{
+        align-items: center;
+      }
+      .aboutus-container{
+        display: block;
+        margin-left: auto;
+        margin-bottom: 50px;
+    
+      }
+      .left-container{
+        margin-left: auto;
+      }
+      #aboutimage{
+        width: 250px;
+        height: 250px;
+      }
+      
+      #aboutImage{
+        width: 250px;
+        height: 250px;
+      }
+      .ipsum-logos{
+        display: block;
+        margin-bottom: auto;
+        margin-left: 30px;
+        
+      }
+      .video-section{
+        display: block;
+        margin-left: auto;
+      }
+      .statisticsContainer{
+        margin-left: 10px;
+        width: auto;
+        display: block;
+      }
+      .left-section{
+        margin-left: auto;
+        width: auto;
+      }
+      #bookonline{
+        margin-left: auto;
+        
+      }
+      .yellowplay-icon{
+        display: none;
+      }
+      .services-text{
+        margin-left: 110px;
+        margin-top: 50px;
+      }
+      .formsection{
+        margin-left: 0px;
+        width: 10px;
+      }
+      #formimage{
+        margin-left: 0px;
+        width: 240px;
+        height: 240px;
+        position: relative;
+      }
+      .services-container{
+        margin-left: 50px;
+        display: block;
+        margin-top: auto;
+      }
+      .form{
+        display: grid;
+        width: auto;
+      }
+      .oppositeform{
+        margin-left: 0px;
+        width: 200px;
+        height: 200px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+     .formContent{
+        display: block;
+        width: 150px;
+     }
+      #formelements{
+        width: 150px;
+      }
+      .testimonies{
+        margin-left: 60px;
+      }
+      .customer-feedback{
+        display: block;
+        margin-left: auto;
+      }
+      .news-signup{
+        display: grid;
+        gap: 0px;
+      }
+      .blog{
+        margin-left: 60px;
+        margin-top: auto;
+      }
+      .newsletter{
+        margin-left: 60px;
+      }
+      .blue-container{
+        width: auto;
+        margin-bottom: 40px;
+        margin-left: auto;
+      }
+      #blueicon{
+        margin-left: auto;
+      }
+      .articles{
+        display: block;
+        margin-left: auto;
+        width: auto;
+        
+      }
+      #leftimage{
+        width: 250px;
+        height: 250px;
+      }
+      #rightimage{
+        width: 250px;
+        height: 250px;
+      }
+      #centerimage{
+        width: 250px;
+        height: 250px;
+      }
+      .upperFooter{
+        width: auto;
+        display: block;
+        padding: auto;
+        border-radius: 0%;
+        margin-top: 20%;
+      }
+     .lowerFooter{
+       display: block;
+       width: auto;
+      }
+      .bar{
+        display: grid;
+      }
+      #uparrow{
+        margin-left: 200px;
+        margin-top: 40px;
+        
+      }
+    }
 
